@@ -22,25 +22,26 @@ struct OrderCardView: View {
                 VStack(alignment: .leading) {
                     HStack {
                         Text(Strings.Common.arrivesAt)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
-                        
                         Text(viewModel.convertUnixToDate(code: order.arrivesAtUtc ?? 0))
-                        Spacer()
+                            .frame(maxWidth: .infinity, alignment: .leading)
                     }.padding(1)
                     HStack {
                         Text(Strings.Common.paidWith)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
-                        
                         Text(order.paidWith)
-                        Spacer()
+                            .frame(maxWidth: .infinity, alignment: .leading)
                     }
                     .padding(1)
                     HStack {
                         Text(Strings.Common.status)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                         Spacer()
-                        
                         Text(viewModel.setOrderStatus(code: order.arrivesAtUtc ?? 0))
-                        Spacer()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+
                     }.padding(1)
                 }
                 .foregroundColor(Color("subTextColor"))
