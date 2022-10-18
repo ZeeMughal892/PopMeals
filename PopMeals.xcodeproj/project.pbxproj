@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E180221F28FEC775006041D0 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180221E28FEC775006041D0 /* Strings.swift */; };
 		E1A6F09428FEA9A100386DAB /* PopMealsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F09328FEA9A100386DAB /* PopMealsApp.swift */; };
-		E1A6F09628FEA9A100386DAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F09528FEA9A100386DAB /* ContentView.swift */; };
+		E1A6F09628FEA9A100386DAB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F09528FEA9A100386DAB /* AccountView.swift */; };
 		E1A6F09828FEA9A200386DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A6F09728FEA9A200386DAB /* Assets.xcassets */; };
 		E1A6F09B28FEA9A200386DAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A6F09A28FEA9A200386DAB /* Preview Assets.xcassets */; };
+		E1A6F0A228FEAA4200386DAB /* PopMealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0A128FEAA4200386DAB /* PopMealModel.swift */; };
+		E1A6F0A428FEAC0700386DAB /* PopMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0A328FEAC0700386DAB /* PopMealViewModel.swift */; };
+		E1A6F0A628FEAC3300386DAB /* ApiUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0A528FEAC3300386DAB /* ApiUrls.swift */; };
+		E1A6F0A828FEAEB000386DAB /* OrderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0A728FEAEB000386DAB /* OrderCardView.swift */; };
+		E1A6F0AE28FEB82C00386DAB /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0AD28FEB82C00386DAB /* FontsManager.swift */; };
+		E1A6F0B128FEB9FE00386DAB /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6F0B028FEB9FE00386DAB /* SettingRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E180221E28FEC775006041D0 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		E1A6F09028FEA9A100386DAB /* PopMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A6F09328FEA9A100386DAB /* PopMealsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMealsApp.swift; sourceTree = "<group>"; };
-		E1A6F09528FEA9A100386DAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1A6F09528FEA9A100386DAB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		E1A6F09728FEA9A200386DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A6F09A28FEA9A200386DAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1A6F0A128FEAA4200386DAB /* PopMealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMealModel.swift; sourceTree = "<group>"; };
+		E1A6F0A328FEAC0700386DAB /* PopMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMealViewModel.swift; sourceTree = "<group>"; };
+		E1A6F0A528FEAC3300386DAB /* ApiUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrls.swift; sourceTree = "<group>"; };
+		E1A6F0A728FEAEB000386DAB /* OrderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCardView.swift; sourceTree = "<group>"; };
+		E1A6F0AB28FEB7F100386DAB /* barlow.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = barlow.regular.ttf; sourceTree = "<group>"; };
+		E1A6F0AC28FEB80200386DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1A6F0AD28FEB82C00386DAB /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		E1A6F0AF28FEB86C00386DAB /* barlow.light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = barlow.light.ttf; sourceTree = "<group>"; };
+		E1A6F0B028FEB9FE00386DAB /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +68,14 @@
 		E1A6F09228FEA9A100386DAB /* PopMeals */ = {
 			isa = PBXGroup;
 			children = (
-				E1A6F09328FEA9A100386DAB /* PopMealsApp.swift */,
-				E1A6F09528FEA9A100386DAB /* ContentView.swift */,
 				E1A6F09728FEA9A200386DAB /* Assets.xcassets */,
+				E1A6F0B328FEBDE600386DAB /* Common */,
+				E1A6F0AC28FEB80200386DAB /* Info.plist */,
+				E1A6F0B628FEBE2000386DAB /* Model */,
+				E1A6F09328FEA9A100386DAB /* PopMealsApp.swift */,
 				E1A6F09928FEA9A200386DAB /* Preview Content */,
+				E1A6F0B428FEBDEE00386DAB /* ViewModel */,
+				E1A6F0B528FEBE1500386DAB /* Views */,
 			);
 			path = PopMeals;
 			sourceTree = "<group>";
@@ -65,6 +86,52 @@
 				E1A6F09A28FEA9A200386DAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1A6F0AA28FEB7D700386DAB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6F0AB28FEB7F100386DAB /* barlow.regular.ttf */,
+				E1A6F0AF28FEB86C00386DAB /* barlow.light.ttf */,
+				E1A6F0AD28FEB82C00386DAB /* FontsManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E1A6F0B328FEBDE600386DAB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6F0AA28FEB7D700386DAB /* Fonts */,
+				E1A6F0A528FEAC3300386DAB /* ApiUrls.swift */,
+				E180221E28FEC775006041D0 /* Strings.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E1A6F0B428FEBDEE00386DAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6F0A328FEAC0700386DAB /* PopMealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1A6F0B528FEBE1500386DAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6F09528FEA9A100386DAB /* AccountView.swift */,
+				E1A6F0A728FEAEB000386DAB /* OrderCardView.swift */,
+				E1A6F0B028FEB9FE00386DAB /* SettingRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1A6F0B628FEBE2000386DAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6F0A128FEAA4200386DAB /* PopMealModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A6F09628FEA9A100386DAB /* ContentView.swift in Sources */,
+				E1A6F09628FEA9A100386DAB /* AccountView.swift in Sources */,
+				E180221F28FEC775006041D0 /* Strings.swift in Sources */,
+				E1A6F0B128FEB9FE00386DAB /* SettingRow.swift in Sources */,
+				E1A6F0A228FEAA4200386DAB /* PopMealModel.swift in Sources */,
 				E1A6F09428FEA9A100386DAB /* PopMealsApp.swift in Sources */,
+				E1A6F0A428FEAC0700386DAB /* PopMealViewModel.swift in Sources */,
+				E1A6F0A828FEAEB000386DAB /* OrderCardView.swift in Sources */,
+				E1A6F0AE28FEB82C00386DAB /* FontsManager.swift in Sources */,
+				E1A6F0A628FEAC3300386DAB /* ApiUrls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,7 @@
 				DEVELOPMENT_TEAM = PJ6ZYJ82NX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopMeals/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +374,7 @@
 				DEVELOPMENT_TEAM = PJ6ZYJ82NX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PopMeals/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
